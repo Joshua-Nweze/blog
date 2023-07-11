@@ -1,0 +1,13 @@
+body{
+    background-color: #414149;
+}
+
+.background-radial-gradient {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 56%, rgba(65,65,73,1) 87%);
+  }
+
+.bg-glass {
+background-color: hsla(0, 0%, 100%, 0.9) !important;
+backdrop-filter: saturate(200%) blur(25px);
+}
