@@ -25,7 +25,7 @@ initializePassport(passport, async (email) => {
 
 const app = express()
 
-const uri = "mongodb+srv://joshua:test123@users.ohonaw2.mongodb.net/users?retryWrites=true&w=majority"
+const uri = ""
 mongoose.connect(uri)
     .then(result => app.listen(3000))
     .catch(err => console.log("Error: ", err))
